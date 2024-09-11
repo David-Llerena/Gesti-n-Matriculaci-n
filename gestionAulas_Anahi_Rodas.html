@@ -8,27 +8,24 @@
 </head>
 
 <body onload="refrescarAula();">
+    <div class="titulo">
+        <h1>GESTION DE AULAS</h1>
+    </div>
     <div class="principal">
-        <div class="aula">
-            <h3> NUMERO AULA</h3>
+        <div class="principal">
             <div>
-                <input type="text" class="cajaTexto" id="txtNumeroAula" />
+                <h5 class="tituloCampo">NUMERO AULA</h5>
+                <input type="text" class="cajaTexto" id="txtNumeroAula" placeholder="Ingrese el numero de aula"></input>
+                <h5 class="tituloCampo" >HORARIO</h5>
+                <input type="text" class="cajaTexto" id="txtHorario" placeholder="Ingrese el horario"></input>
+                <h5 class="tituloCampo" >CAPACIDAD MAXIMA</h5>
+                <input type="text" class="cajaTexto" id="txtCapacidadMaxima" placeholder="Ingrese la capacidad maxima"></input>
+    
+                <h5 class="tituloCampo" >INGRESE EL NUMERO DE AULA PARA BUSCAR</h5>
+                <input type="text" class="cajaTexto" id="txtBuscar"></input>
             </div>
-            <h3> HORARIO</h3>
-            <div>
-                <input type="text" class="cajaTexto" id="txtHorario">
-            </div>
-            <h3> CAPACIDAD MAXIMA</h3>
-            <div>
-                <input type="text" class="cajaTexto" id="txtCapacidadMaxima">
-            </div>
-            <h3> BUSCAR</h3>
-            <div>
-                <input type="text" class="cajaTexto" id="txtBuscar">
-
-            </div>
-            
-        </div>
+    
+        </div> 
 
         <div class="botones">
             <div class="contenedorBoton">
@@ -42,9 +39,11 @@
 
 
 
-        <div class="areaTabla" id="tablaAula">
+        
+    </div>
 
-        </div>
+    <div class="areaTabla" id="tablaAula">
+
     </div>
 
 </body>
