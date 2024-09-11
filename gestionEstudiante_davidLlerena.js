@@ -55,3 +55,7 @@ buscarEstudiante=function(){
         alert("Estudiante no encontrado");
     }
 }
+volver=function(){
+    window.location.assign ("index.html");
+}
+
