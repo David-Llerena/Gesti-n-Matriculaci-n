@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="gestionProfesores_HenryAlvarez.js"></script>
+        <script src="utilitarios.js"></script>
+        <link rel="stylesheet" href="css.css" />
+    </head>
+    <body>
+        <div class="principal">
+            <div class="titulo">
+            Gestión de Profesor 
+            </div>
+            <div class="ingresoDatos">
+                <h2>Nombre</h2>
+                <input type="text" id="txtNombre"/>
+                <h2>Edad</h2>
+                <input type="text" id="txtEdad"/>
+                <h2>Email</h2>
+                <input type="text" id="txtEmail"/>
+            </div>
+            <div class="botones">
+                <div class="contenedorBoton">    
+            <input type="button" value="Guardar" onclick="agregarProfesor()"/>
+            <input type="button" value="Refrescar" onclick="refrescarProfesor()"/>
+                </div>
+            </div>
+            <div id="tablasProfes" class="areaTabla">
+
+            </div>
+            <div class="ingresoDatos">
+                <h2>Ingrese identificador de profesor</h2>
+                <input type="text" id="txtBuscar"/>
+            </div>
+            <div class="botones">
+                <div class="contenedorBoton">
+                <input type="button" value="Buscar" onclick="buscarProfesor()"/>
+                <img src="" id="img">
+                </div>
+            </div>
+        </div>    
+    </body>
+</html>

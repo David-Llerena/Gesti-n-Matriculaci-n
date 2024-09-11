@@ -1,0 +1,123 @@
+body{
+    background-image: url("msi.jpg");
+    background-size: cover;
+    background-color: aliceblue;
+}
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.contenedorBoton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.estiloBoton {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 150px; 
+    height: 50px; 
+    margin: 0 10px; 
+}
+
+.estiloBoton:hover {
+    background-color: white; 
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+}
+
+.estiloBoton:active {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.resultado{
+    display: flex;
+    flex:5;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(82, 23, 23);
+    background-color: rgba(177, 152, 152, 0.589);
+}
+
+.ingresoDatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.logoEscuela{
+    display: flex;
+    flex:1;
+    justify-content: left;
+    align-items: left;
+
+}
+.logoEscuela1{
+    display: flex;
+    flex:1;
+    justify-content: right;
+    align-items: right;
+
+}
+.error{
+    color: red;
+}
+
+.imgs{
+    display: flex;
+    flex:2;
+    flex-direction: row;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: #4a5577;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #1b2630;
+  }
+  
+  tbody tr {
+    background-image: url(noise.png);
+  }
+  
+  table {
+    background-color: #295050;
+    color: rgb(187, 172, 172);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+  }
+  td{
+    text-align: center;
+  }
+  .areaTabla{
+    margin-top: 20px;
+  }
