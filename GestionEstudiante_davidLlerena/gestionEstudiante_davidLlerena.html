@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="gestionEstudiante_davidLlerena.js"></script>
+    <script src="utilitarios.js"></script>
+    <link href="gestionEstudiante_davidllerena.css" rel="stylesheet"/>
+</head>
+
+<body onload="refrescarEstudiante();">
+        <div class="titulo">
+            <h1>GESTION DE ESTUDIANTES</h1>
+        </div>
+    <div class="principal">
+        <div>
+            <h5 class="tituloCampo">NOMBRE</h5>
+            <input type="text" class="cajaTexto" id="txtNombre" placeholder="Ingrese el nombre del estudiante"></input>
+            <h5 class="tituloCampo" >CURSO</h5>
+            <input type="text" class="cajaTexto" id="txtCurso" placeholder="Ingrese el curso del estudiante"></input>
+            <h5 class="tituloCampo" >MATRICULA</h5>
+            <input type="text" class="cajaTexto" id="txtMatricula" placeholder="Ingrese la matricula de estudiante"></input>
+
+            <h5 class="tituloCampo" >INGRESE LA MATRICULA PARA BUSCAR AL ESTUDIANTE</h5>
+            <input type="text" class="cajaTexto" id="txtBuscar"></input>
+        </div>
+
+    </div>   
+
+        <div class="botones">
+            <input type="button" value="GUARDAR" class="boton" onclick="agregarEstudiante();" />
+            <input type="button" value="REFRESCAR" class="boton" onclick="refrescarEstudiante();" />
+            <input type="button" value="BUSCAR" class="boton" onclick="buscarEstudiante();" />
+
+        </div>
+
+
+
+        <div></div>
+            <div id="tablaEstudiantes" class="areaTabla"></div>
+        </div>
+
+    </body>
+ </html>
+
