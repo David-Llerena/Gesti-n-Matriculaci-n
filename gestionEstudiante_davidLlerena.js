@@ -58,4 +58,14 @@ buscarEstudiante=function(){
 volver=function(){
     window.location.assign ("index.html");
 }
+eliminarEstudiante=function(){
+    let matriculaAEliminar = recuperarTexto("txtEliminar");
+    for (let i = 0; i < estudiantes.length; i++) {
+        if (estudiantes[i].matricula === matriculaAEliminar) {
+            estudiantes.splice(i, 1);
+            console.log("Estudiante eliminado. Lista actualizada:", estudiantes);
+            refrescarEstudiante();
+        }
+    }
+}
 
