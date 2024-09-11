@@ -1,5 +1,9 @@
 let = profesores = []
 
+redirigirMenu=function(){
+    window.location.assign ("index.html");
+}
+
 crearProfesor = function () {
     let valorEmail = recuperarTexto("txtEmail");
     let valorNombre = recuperarTexto("txtNombre");
