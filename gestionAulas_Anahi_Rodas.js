@@ -56,3 +56,18 @@ buscarAula=function(){
         alert("Aula No Encontrada")
     }
 }
+
+eliminar=function(){
+    let eliminar= recuperarTexto("txtBuscar");
+    let elementoAula;
+    for(let i=0; i<aulas.length; i++){
+        elementoAula= aulas[i];
+        if(elementoAula.numaula==eliminar){
+            aulas.splice(i);
+            refrescarAula();
+            break;
+
+        }
+
+    }
+}
