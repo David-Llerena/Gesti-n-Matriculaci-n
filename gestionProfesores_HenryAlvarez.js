@@ -4,6 +4,18 @@ redirigirMenu=function(){
     window.location.assign ("index.html");
 }
 
+eliminarProfe=function() {
+    let profesor = recuperarTexto("txtBuscar");
+    for (let i = 0; i < profesores.length; i++) {
+      if (profesores[i].email == profesor) {
+        profesores.splice(i, 1);
+        console.log("Profesor eliminado");
+        alert("profesor eliminado");
+        return;
+      }
+    }
+  }
+
 crearProfesor = function () {
     let valorEmail = recuperarTexto("txtEmail");
     let valorNombre = recuperarTexto("txtNombre");
