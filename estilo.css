@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(211, 163, 255);
+    background-image: url("fondo.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.ingresoDatos{
+
+    padding: 10px;
+    display: flex;
+    flex-direction:  row;
+    justify-content: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.area{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    
+}
+.tituloCampo{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+.tituloCampo1{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+.cajaTexto{
+    border-radius: 4px;
+    border-color: #217023;
+
+    font-size: 14px;
+    color:rgb(85, 83, 83);
+}
+.areaTabla {
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #8efcbf;
+
+}
+
+tbody tr:nth-child(even) {
+    background-color: #51cfa7;
+
+}
+
+tbody tr {
+    background-image: url(noise.png);
+}
+
+table {
+    background-color: #0b0c0c;
+    border-radius: 10px;
+    border-collapse: separate;
+    border-spacing: 5px;
+    
+    background: linear-gradient(rgb(10, 50, 110), rgb(42, 180, 214), rgb(10, 50, 110));
+    color: #022e24;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+.aula {
+    background-color: rgb(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: center;
+}
+
+
+.contenedorBoton{
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.estiloBoton{
+    background-color: #217061; 
+    border: 1px solid;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 120px;
+
+}
+
+.estiloBoton:hover {
+    background-color:white; 
+    color: #217061;
+    border: 1px solid;
+    border-color: #217061;
+    border-radius: 5px;
+}
+.estiloBoton:active{
+    background-color: #217061; 
+    border: 1px solid;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+
+}
